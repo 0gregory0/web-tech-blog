@@ -1,0 +1,98 @@
+:root {
+  --width: 100%;
+  --primary-light: #33afff;
+  --primary-dark: #2962ff;
+  --primary-neutral: #111827;
+  --accent1: #d72483;
+  --accent2: #ed254e;
+}
+
+span {
+  background-color: var(--primary-light);
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+pre {
+  background-color: rgb(41, 41, 41);
+  color: rgb(244, 244, 244);
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 5px;
+  border: solid rgb(41, 41, 41);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery-child {
+  max-width: 45%;
+  height: auto;
+  margin: 2.5%;
+  padding: 0;
+}
+
+.single-image {
+  width: 75%;
+  height: 75%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+#last-pic {
+  border: solid rgb(41, 41, 41);
+}
+
+.text-center {
+  text-align: center;
+}
+
+#confused {
+  margin-top: 3rem;
+}
+
+pre {
+  width: 75%;
+  margin: 2rem;
+  margin-left: 12.5%;
+}
+
+.table-of-contents {
+  color: inherit;
+}
+
+.contents-list {
+  margin: 1rem;
+  padding: auto;
+}
+
+.logo {
+  background-color: var(--primary-light);
+  border: none;
+  border-radius: 5px;
+}
+
+header {
+  background-color: var(--primary-dark);
+}
+
+body {
+  color: white;
+  background-color: #111827;
+}
+
+.cta-blogs {
+  color: var(--accent2);
+}

@@ -1,0 +1,91 @@
+:root {
+  --width: 100%;
+  --primary-light: #33afff;
+  --primary-dark: #2962ff;
+  --primary-neutral: #111827;
+  --accent1: #d72483;
+  --accent2: #ed254e;
+}
+
+body {
+  font-family: "Nunito", "Open Sans", "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: large;
+  width: var(--width);
+  margin: 0;
+}
+
+article {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  background-color: var(--primary-light);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: var(--width);
+  margin: 0;
+}
+
+.logo {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  width: 12.5%;
+  height: fit-content;
+  border: solid white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: 1rem;
+}
+
+#logo {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#code {
+  padding-top: 2.5px;
+  margin-top: 0;
+  padding-bottom: 1px;
+  margin-bottom: 0;
+}
+
+#like {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#greg {
+  padding-top: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#smile {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 1.5px;
+  padding-bottom: 1px;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+nav {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
